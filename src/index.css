@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+  }
+
+  .header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8rem;
+    margin-top: 1rem;
+  }
+
+  .header-input {
+    width: 100%;
+  }
+}

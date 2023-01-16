@@ -1,0 +1,57 @@
+.header {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.header-logo {
+  height: 50px;
+  object-fit: contain;
+  margin-left: 1rem;
+}
+
+.header-input {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid;
+  border-radius: 15px;
+  padding: 0.2rem;
+}
+
+.header-input input {
+  border-radius: 10px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.header-input input {
+  flex: 1;
+  padding: 0.5rem;
+  border: none;
+}
+
+.header-btn {
+  width: 50px !important;
+
+  border-left: 1px solid gray;
+}
+
+.header-icon {
+  margin-right: 1rem;
+}

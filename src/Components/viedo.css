@@ -1,0 +1,27 @@
+.viedos-card {
+  width: 280px;
+  margin-bottom: 40px;
+  font-family: "Raleway", sans-serif;
+  border-radius: 10px;
+}
+.viedo-img {
+  border-radius: 10px;
+  width: 270px;
+  height: 150px;
+}
+.viedo-info {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.viedo-text h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.viedo-text p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: gray;
+}
